@@ -7,17 +7,12 @@ public class XuLy {
 	}
 
 	public static void main(String[] args) {
-		
-       Scanner scan = new Scanner(System.in);
-	   System.out.println("Nhập vào một số thực thứ nhất");
-	   String value1 = scan.nextLine();
-	   System.out.println("Nhập vào một số thực thứ hai");
-	   String value2 = scan.nextLine();
+	  final float PI = 3.14f;
+      Scanner scan = new Scanner(System.in);
+	   
        
-	   double num1 = Double.parseDouble(value1);
-	   double num2 = Double.parseDouble(value1);
-	   double tong = num1 + num2;	   
-	   System.out.println("Tổng là: " + tong);
-	
+      float bankinh = 3;
+      float chuvi = bankinh*2*PI;
+      float dienTich = bankinh * bankinh * PI; 
 	}
 }
